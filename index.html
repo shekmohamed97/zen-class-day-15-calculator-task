@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container">
+    <h1 id="title"> this is my calculator</h1>
+    <br>
+    <p id="description">Hi guys this is my calculator .and this task is creat in HTML,CSS and Java script.and just using to the animation CSS</p>
+    <div class="container">  
         <div class="calculater">
-            <input type="text" placeholder="0" id="output-screen">
-            <button onclick="clear()">CL</button>
+            <input type="text" placeholder="0" id="result">
+            <button id="clear" onclick="clear()">CL</button>
             <button onclick="del()">DEL</button>
             <button onclick="display('%')">%</button>
             <button onclick="display('/')">/</button>
@@ -18,20 +21,20 @@
             <button onclick="display('8')">8</button>
             <button onclick="display('9')">9</button>
             <button onclick="display('*')">*</button>
-            <button onclick="display('4')">4</button>
-            <button onclick="display('5')">5</button>
-            <button onclick="display('6')">6</button>
-            <button onclick="display('-')">-</button>
-            <button onclick="display('1')">1</button>
-            <button onclick="display('2')">2</button>
-            <button onclick="display('3')">3</button>
-            <button onclick="display('+')">+</button>
-            <button onclick="display('.')">.</button>
-            <button onclick="display('0')">0</button>
-            <button class="equal" onclick="calculate ()"> =</button>
+            <button id="4" onclick="display('4')">4</button>
+            <button id="5" onclick="display('5')">5</button>
+            <button id="6" onclick="display('6')">6</button>
+            <button id="subtract" onclick="display('-')">-</button>
+            <button id="1" onclick="display('1')">1</button>
+            <button id="2" onclick="display('2')">2</button>
+            <button id="3" onclick="display('3')">3</button>
+            <button id="add" onclick="display('+')">+</button>
+            <button id="." onclick="display('.')">.</button>
+            <button id="0" onclick="display('0')">0</button>
+            <button id="equal" onclick="calculate ()"> =</button>
         </div>
      </div>
     <script src="script.js"></script>
-
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
 </body>
 </html>
